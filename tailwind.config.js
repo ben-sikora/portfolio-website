@@ -6,8 +6,17 @@ export default {
   theme: {
     fontFamily: {
       display: ["Nunito Sans", "sans-serif"],
+      writing: ["Solitreo", "cursive"],
     },
-    extend: {},
+    extend: {    
+      colors:{
+        'darkgreen':'#315430',
+        'darkblue': '#34696F',
+        'lightblue': '#5DA399',
+
+
+      }
+    ,},
   },
   plugins: [],
 }
