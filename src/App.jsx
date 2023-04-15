@@ -2,6 +2,7 @@ import './App.css'
 import styles from './style'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/About'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <div className= "mx-10 overflow-hidden">
             <Hero />
+            <About />
           </div>
         </div>
       </div>
