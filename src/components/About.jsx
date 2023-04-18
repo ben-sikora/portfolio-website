@@ -1,9 +1,18 @@
 import React from 'react'
 import arrow from "../assets/vector.svg"
 import travel from "../assets/travel.jpg"
+import { motion } from "framer-motion"
+
+//Look into npm scrollreveal
+
 const About = () => {
   return (
-    <div className='flex flex-row mt-10 items-center justify-between'>
+    <motion.div 
+    initial={{ opacity: 0, y:-75, x:-10}}
+    whileInView={{ opacity: 1, y:0, x:0}}
+    viewport={{ once: true }}
+    transition={{ delay: 0.75, duration: 1}}
+    className='flex flex-row mt-10 items-center justify-between'>
 
 
         {/* About me section*/}
@@ -28,7 +37,7 @@ const About = () => {
         <div className=''>
           <img src={travel} className='mt-14'/>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
