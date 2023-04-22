@@ -4,7 +4,7 @@ import githubLogo from "../assets/github.svg"
 const Navbar = () => {
   return (
     <div className="w-full xl:w-[1280px]">
-      <div className="flex w-full xl:w-[1280px] pt-5 bg-gray-400">
+      <div className="flex w-full xl:w-[1280px] mt-5 bg-gray-400">
           <a href="#" className= "flex justify-center items-center bg-blue-200 font-display font-lightb grow-[1] basis-1/5" > @bensikora </a>
           <ul className= 
           "justify-center inline-flex items-center bg-red-100 text-lg font-display font-light grow-[3] basis-3/5">
