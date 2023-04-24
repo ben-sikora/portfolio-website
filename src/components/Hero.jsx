@@ -36,7 +36,7 @@ const Hero = () => {
       <h1 className='text-[64px] font-[800] leading-[73px] text-darkgreen'>I like <span className='text-lightblue'>learning</span> and
       <br/><span className='text-darkblue'>building</span> cool things</h1>
       <p className='text-[32px] font-[4000] leading-[44px] text-black'>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+      I am a computer scientist passionate about Full-Stack Development, Cloud Engineering, and all things creating. 
       </p>
       </div>
     </div>
