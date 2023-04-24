@@ -23,7 +23,7 @@ const Hero = () => {
   
 
       {/*Pictures*/}
-      <div className="w-[383px] h-[530px] bg-red-300 relative mt-4">
+      <div className="w-[383px] h-[530px] relative mt-4">
         <div className="w-[363px] h-[513px] bg-black absolute bottom-0 right-0">
         </div>
         <img src={hiking} alt="portrait of ben" className="w-[328px] h-[501px] object-contain absolute top-0 left-0"/> 

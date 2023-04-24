@@ -8,7 +8,7 @@ const IndProject = () => {
         <div className='grid w-[270px] grid-cols-6 h-[160px] grid-rows-4 mr-3'>
             <div className='bg-darkblue row-start-2 row-end-4 col-end-7 col-start-1 z-0'>
             </div>
-            <div className='col-start-2 col-end-6 row-start-1 row-end-5 z-10 object-contain flex justify-center'>
+            <div className='col-start-2 col-end-6 row-start-1 row-end-5 z-10 object-contain flex justify-center border-black border-2'>
                 <img className='' src={projectPic} >
                 </img>
             </div>
