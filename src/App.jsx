@@ -2,6 +2,7 @@ import './App.css'
 import styles from './style'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Hero2 from './components/Hero2'
 import About from './components/About'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
@@ -15,7 +16,7 @@ function App() {
         <div className= "w-full xl:w-[1280px] overflow-hidden mx-auto">
           <Navbar />
           <div className= "mx-10 overflow-hidden">
-            <Hero />
+            <Hero2 />
             <About />
             <Projects />
             <Experience />
