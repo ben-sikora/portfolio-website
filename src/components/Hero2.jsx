@@ -6,7 +6,7 @@ import paintbrushDarkblue from "../assets/paintbrushDarkblueL.svg";
 
 const Hero2 = () => {
   return (
-    <div className="flex flex-row h-[90vh] max-h-[710px]">
+    <div className="flex flex-row h-[90vh] max-h-[710px]" id='hero-page'>
       <div className="w-[560px] mt-4 ml-8 shrink-0">
         {/*Writing on Top*/}
 

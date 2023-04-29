@@ -16,7 +16,7 @@ const About = () => {
 
 
         {/* About me section*/}
-        <div className="box-border w-[570px] flex flex-col items-center">
+        <div className="box-border w-[570px] flex flex-col items-center" id='about-page'>
             <h2 className='text-display text-[64px] font-[800] text-darkgreen mb-6'> About Me</h2>
             <div className='bg-darkblue w-[450px] h-[4--px] p-[2.25rem]'>
                 <p className='text-display text-[18px] leading-13 font-[400] text-white mb-10'>

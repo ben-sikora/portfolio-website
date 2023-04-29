@@ -17,7 +17,7 @@ const Experience = () => {
     }
 
     return (
-    <div className="w-[80%] mx-auto">
+    <div className="w-[80%] mx-auto" id='experience-page'>
     <h2 className='text-display text-[64px] font-[800] text-darkgreen flex justify-center'> Experience</h2>
     <div className="box-border pt-10 bg-darkblue">
       <div className="box-border flex">
