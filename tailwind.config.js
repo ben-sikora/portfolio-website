@@ -13,7 +13,7 @@ export default {
         'darkgreen':'#315430',
         'darkblue': '#34696F',
         'lightblue': '#5DA399',
-        'yellow': '#C8D96F',
+        'yellow': '#e6e864',
 
 
       }
