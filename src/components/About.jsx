@@ -64,7 +64,7 @@ const About = () => {
                     className="w-[450px] object-contain z-0 row-start-1 row-end-2 col-start-1 col-end-2"
             />  
         </div>
-        <h4 className='text-display text-[24px] font-[500] leading-8 text-darkblue ml-10'>"Curiosity is at the center of my path to learning, and with every new challenge comes the opportunity to gain a deeper understanding of new ideas and create something that truly stands out.”</h4>
+        {/*        <h4 className='text-display text-[24px] font-[500] leading-8 text-darkblue ml-10'>"Curiosity is at the center of my path to learning, and with every new challenge comes the opportunity to gain a deeper understanding of new ideas and create something that truly stands out.”</h4>*/}
         </div>
     </motion.div>
   )
