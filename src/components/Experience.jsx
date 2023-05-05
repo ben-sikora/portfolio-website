@@ -5,12 +5,31 @@ const Experience = () => {
     const [citiClassName, setCitiClassName]= useState(buttonOnStyling)
     const [corpClassName, setCorpClassName]= useState("")
 
+    
+    const citiContent=
+    <div> 
+    <h3>Citibank</h3>
+    <h4>Aug 2022-Sept 2022</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    const corpContent=
+    <div> 
+    <h3>The Corp</h3>
+    <h4>Different Date</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    const [content, setContent]= useState(citiContent)
+
     const switchButton= () =>{
-        if(citiClassName == ''){
+        if(citiClassName === ''){
             setCitiClassName(buttonOnStyling)
+            setContent(citiContent)
             setCorpClassName("")
         } else{
             setCitiClassName("")
+            setContent(corpContent)
             setCorpClassName(buttonOnStyling)
         }
 
@@ -28,11 +47,7 @@ const Experience = () => {
         </ul>
         </div>
         <div className="basis-4/5 text-white">
-            <div> 
-                <h3>Citibank</h3>
-                <h4>Aug 2022-Sept 2022</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+           {content}
         </div>
 
       </div>
