@@ -14,7 +14,7 @@ const About = () => {
     whileInView={{ opacity: 1, y:0, x:0}}
     viewport={{ once: true }}
     transition={{ delay: 0.75, duration: 1}}
-    className='flex flex-row mt-10 items-center justify-between'>
+    className='flex flex-row h-[100vh] items-center justify-between'>
 
 
         {/* About me section*/}
