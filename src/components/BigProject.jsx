@@ -7,7 +7,7 @@ const BigProject = (props) => {
   return (
     <div className="flex flex-row h-[300px] w-[100%] justify-center">
       <div className="w-[500px] self-center">
-        <div className="transition-all duration-200 cursor-pointer filter  hover:grayscale-[0.5] hover:scale-[102%] mr-4">
+        <div className="transition-all duration-200 cursor-pointer filter  hover:scale-[102%] mr-4 grayscale-[0.5] hover:grayscale-0">
           <a href="#">
             <img src={props.img} className="w-[100%]"></img>
           </a>
