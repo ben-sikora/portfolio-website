@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import IndProject from "./IndProject";
 import BigProject from "./BigProject";
+import FaceRecApp from "../assets/FaceRecApp.png"
+import SummerDev from "../assets/SummerDev.png"
 
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
+
+
+  const faceRecContent='FaceRec is a full-stack web app that utilizes the Clarifai API to identify faces in any image. Users have the option to also create an account to keep track of how many images are uploaded.'
+
+
+  const summerContent='Summer is a full-stack web app that can summarize any length of document or text using ChatGPT. Normally ChatGPT has a prompt limit, but Summer bypasses the limit by automatically breaking up the document for you. As the API costs money for each call, there is only a limited number of requests per user.'
 
   let condProjects;
 
@@ -49,11 +57,12 @@ const Projects = () => {
           {" "}
           Projects
         </h2>
-        <BigProject />
-        <BigProject />
+        <BigProject content={faceRecContent} img={FaceRecApp}/>
+        <BigProject content={summerContent} img={SummerDev}/>
 
         {condProjects}
       </div>
+      <h4 className='text-display text-[24px] font-[500] leading-10 ml-10 mt-10 text-center'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
     </div>
   );
 };

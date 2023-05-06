@@ -22,19 +22,19 @@ const About = () => {
             <h2 className='text-display text-[64px] font-[800] text-darkgreen mb-6'> About Me</h2>
             <div className='bg-darkblue w-[570px] px-[1.75rem] py-[1.2rem]'>
                 <p className='text-display text-[18px] font-[400] text-white mb-5'>
-                Hello! My name is Ben.
-                I am a recent graduate from Georgetown University looking to start my career in Software Development. I created this website to illustrate some of my recent projects and also to share a little bit about me. 
+                Hello! My name is Ben. It's nice to meet you!
+                I am a recent Computer Science graduate from Georgetown University looking to start my career in Software Development. I created this website to illustrate some of my recent projects and also to share a little bit about me. 
                 <br/>
                 <br />
                 During school, my main focus was on 
                 <span className='text-yellow font-bold'> data science</span>. 
                 I spent a year as the head analyst at the world's largest 
-                <span className='text-yellow font-bold'> student-run non-profit</span>  and spent time learning and building various machine learning and AI models. More recently, I have shifted my focus to 
+                <span className='text-yellow font-bold'> student-run non-profit</span>  and spent time learning and building various ML models. More recently, I have shifted my focus to 
                 <span className='text-yellow font-bold'> web apps and cloud technology. </span> 
                 I am working towards completing my AWS cloud certification and have deployed my first Full-Stack apps. 
                 <br/>
                 <br />
-                I graduated from school in May 2022 and am currently based in Seattle, WA. Curious what I have been up to in the past year? Check out my blog! 
+                Curious what I have been up to in the past year? Check out my blog! 
                 </p>
                 <div className=''>
                 <h4 className='text-display text-[18px] font-[400] text-white mb-4'>Some technologies I've used recently...</h4> 
@@ -54,7 +54,7 @@ const About = () => {
         <div className=''>
           <img src={portrait} className='w-[400px]'/>
   </div>*/}
-        <div className='w-[650px] flex flex-col items-center mt-10'>
+        <div className='flex flex-col items-center justify-center mt-[7rem]'  >
         <div className="w-[475px] grid grid-rows-1 grid-cols-1 box-border justify-self-center">
             <div className="w-[475px] h-[460px] z-0 row-start-1 row-end-2 col-start-1 col-end-2 bg-black mt-4 ml-4">
             </div>
@@ -64,7 +64,7 @@ const About = () => {
                     className="w-[450px] object-contain z-0 row-start-1 row-end-2 col-start-1 col-end-2"
             />  
         </div>
-        {/*        <h4 className='text-display text-[24px] font-[500] leading-8 text-darkblue ml-10'>"Curiosity is at the center of my path to learning, and with every new challenge comes the opportunity to gain a deeper understanding of new ideas and create something that truly stands out.”</h4>*/}
+        {/*}<h4 className='text-display text-[24px] font-[500] leading-10 ml-10 mt-2'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>*/}
         </div>
     </motion.div>
   )
