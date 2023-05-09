@@ -1,8 +1,7 @@
 import React from "react";
-import { contentIndProjects } from "../content";
 
 const IndProject = (props) => {
-  const project=contentIndProjects[props.id]
+  const project=props.obj
   return (
     <div className="transition-all duration-200 cursor-pointer filter  hover:scale-[102%]">
       <a href={project.link} target="_blank" rel="noopener noreferrer">

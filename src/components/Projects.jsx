@@ -3,6 +3,7 @@ import IndProject from "./IndProject";
 import BigProject from "./BigProject";
 import FaceRecApp from "../assets/FaceRecApp.png"
 import SummerDev from "../assets/SummerDev.png"
+import { contentIndProjects } from "../content";
 
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
@@ -15,13 +16,13 @@ const Projects = () => {
 
   let condProjects;
 
+
+
   if (showMore) {
     condProjects = <div className="flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-9 grid-row-2 h-[80%] justify-items-center items-center mt-4">
-          <IndProject id={0} />
-          <IndProject id={0} />
-          <IndProject id={0} />
-          <IndProject id={0} />
+        <div className="grid grid-cols-2 gap-9 grid-row-2 h-[80%] justify-items-center items-center mt-4"> 
+          {contentIndProjects.map(function(contentIndProject, i){
+            return <IndProject obj={contentIndProject} key={i} />;})}
         </div>
         <button
           type="button"
