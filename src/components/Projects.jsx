@@ -17,15 +17,15 @@ const Projects = () => {
 
   if (showMore) {
     condProjects = <div className="flex flex-col items-center">
-        <div className="grid grid-cols-2 grid-row-2 h-[80%] justify-items-center items-center">
-          <IndProject />
-          <IndProject />
-          <IndProject />
-          <IndProject />
+        <div className="grid grid-cols-2 gap-9 grid-row-2 h-[80%] justify-items-center items-center mt-4">
+          <IndProject id={0} />
+          <IndProject id={0} />
+          <IndProject id={0} />
+          <IndProject id={0} />
         </div>
         <button
           type="button"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-9"
           onClick={() => {
             setShowMore(false);
           }}
@@ -57,12 +57,12 @@ const Projects = () => {
           {" "}
           Projects
         </h2>
+        <h4 className='text-display text-[24px] font-[500] leading-10 ml-10 text-center mb-5'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
         <BigProject content={faceRecContent} img={FaceRecApp}/>
         <BigProject content={summerContent} img={SummerDev}/>
 
         {condProjects}
       </div>
-      <h4 className='text-display text-[24px] font-[500] leading-10 ml-10 mt-10 text-center'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
     </div>
   );
 };
