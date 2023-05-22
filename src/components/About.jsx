@@ -20,7 +20,7 @@ const About = () => {
         {/* About me section*/}
         <div className="box-border w-[570px] flex flex-col items-center" id='about-page'>
             <h2 className='text-display text-[64px] font-[800] text-darkgreen mb-6'> About Me</h2>
-            <div className='bg-darkblue w-[570px] px-[1.75rem] py-[1.2rem]'>
+            <div className='bg-darkblue w-[570px] px-[1.75rem] py-[1.2rem] rounded-lg shadow-lg'>
                 <p className='text-display text-[18px] font-[400] text-white mb-5'>
                 Hello! My name is Ben. It's nice to meet you!
                 I am a recent Computer Science graduate from Georgetown University looking to start my career in Software Development. I created this website to illustrate some of my recent projects and also to share a little bit about me. 

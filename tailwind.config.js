@@ -14,8 +14,9 @@ export default {
         'darkblue': '#34696F',
         'lightblue': '#5DA399',
         'yellow': '#e6e864',
-
-
+      },
+      boxShadow: {
+        'neum': '10px 10px 80px #2c595e, -10px -10px 80px #3c7980',
       }
     ,},
   },
