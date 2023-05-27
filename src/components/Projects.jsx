@@ -4,6 +4,7 @@ import BigProject from "./BigProject";
 import FaceRecApp from "../assets/FaceRecApp.png"
 import SummerDev from "../assets/SummerDev.png"
 import { contentIndProjects } from "../content";
+import { contentBigProjects } from "../content";
 
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
@@ -59,8 +60,13 @@ const Projects = () => {
           Projects
         </h2>
         <h4 className='font-writing text-[24px] font-[500] leading-10 ml-10 text-center mb-5'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
+
+        {contentBigProjects.map(function(contentBigProject, i){
+            return <BigProject link={contentBigProject.link} img={contentBigProject.img} content={contentBigProject.content} key={i} />;})}
+        {/* 
         <BigProject content={faceRecContent} link='https://face-recognition-app-me9o.onrender.com/' img={FaceRecApp}/>
         <BigProject content={summerContent} link= 'https://www.docsummer.com/' img={SummerDev}/>
+        */}
 
         {condProjects}
       </div>
