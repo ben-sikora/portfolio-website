@@ -1,6 +1,7 @@
-import websiteLogo from "./assets/websitelogo.jpg"
+import websiteLogo from "./assets/logo.svg"
 import gradCap from "./assets/gradCap.jpg"
 import IRPic from "./assets/IRPic.jpg"
+import heart from "./assets/heartReport.png"
 
 export const contentIndProjects = [
   {
@@ -21,7 +22,7 @@ export const contentIndProjects = [
     id: 2,
     content:
       "Analyzed heart data using supervised and unsupervised learning methods in R. Evaluated results on Model Fit, ROC Analysis, and K-Fold cross validation.",
-    img: websiteLogo,
+    img: heart,
     link: "https://github.com/ben-sikora/portfolio-website",
   },
   {
