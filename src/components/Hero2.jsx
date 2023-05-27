@@ -6,7 +6,7 @@ import paintbrushDarkblue from "../assets/paintbrushDarkblueL.svg";
 
 const Hero2 = () => {
   return (
-    <div className="flex flex-row h-[90vh] max-h-[710px] mt-10" id='hero-page'>
+    <div className="flex flex-row h-[90vh] max-h-[710px] mt-10 justify-center" id='hero-page'>
       <div className="w-[560px] mt-4 ml-8 shrink-0">
         {/*Writing on Top*/}
 
@@ -41,16 +41,12 @@ const Hero2 = () => {
             className="w-[328px] h-[501px] object-contain absolute top-0 left-0"
           />
         </div> */}
-        <div className="flex-grow mt-4 ">   
-        <div className="w-[390px] mx-auto grid grid-rows-1 grid-cols-1 box-border justify-self-center">
-            <div className="w-[350px] h-[550px] z-0 row-start-1 row-end-2 col-start-1 col-end-2 bg-black mt-4 ml-4">
-            </div>
-            <img
+        <div className="flex-grow"> 
+        <img
                     src={hiking}
                     alt="portrait of ben"
-                    className="w-[340px] object-contain z-0 row-start-1 row-end-2 col-start-1 col-end-2"
-            />  
-        </div>
+                    className="w-[350px] m-auto shadow-blackBox"
+          />  
         </div>
     </div>
   );

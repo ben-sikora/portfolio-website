@@ -55,15 +55,11 @@ const About = () => {
           <img src={portrait} className='w-[400px]'/>
   </div>*/}
         <div className='flex flex-col items-center justify-center mt-[7rem]'  >
-        <div className="w-[475px] grid grid-rows-1 grid-cols-1 box-border justify-self-center">
-            <div className="w-[475px] h-[460px] z-0 row-start-1 row-end-2 col-start-1 col-end-2 bg-black mt-4 ml-4">
-            </div>
-            <img
+        <img
                     src={portrait}
                     alt="portrait of ben"
-                    className="w-[450px] object-contain z-0 row-start-1 row-end-2 col-start-1 col-end-2"
-            />  
-        </div>
+                    className="w-[450px] object-contain shadow-blackBox"
+            /> 
         {/*}<h4 className='text-display text-[24px] font-[500] leading-10 ml-10 mt-2'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>*/}
         </div>
     </motion.div>
