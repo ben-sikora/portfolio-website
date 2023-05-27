@@ -58,7 +58,7 @@ const Projects = () => {
           {" "}
           Projects
         </h2>
-        <h4 className='text-display text-[24px] font-[500] leading-10 ml-10 text-center mb-5'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
+        <h4 className='font-writing text-[24px] font-[500] leading-10 ml-10 text-center mb-5'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
         <BigProject content={faceRecContent} link='https://face-recognition-app-me9o.onrender.com/' img={FaceRecApp}/>
         <BigProject content={summerContent} link= 'https://www.docsummer.com/' img={SummerDev}/>
 
