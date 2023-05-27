@@ -14,7 +14,7 @@ const About = () => {
     whileInView={{ opacity: 1, y:0, x:0}}
     viewport={{ once: true }}
     transition={{ delay: 0.75, duration: 1}}
-    className='flex flex-row h-[100vh] items-center justify-between'>
+    className='flex flex-row h-[115vh] justify-between'>
 
 
         {/* About me section*/}
@@ -34,7 +34,7 @@ const About = () => {
         <div className=''>
           <img src={portrait} className='w-[400px]'/>
   </div>*/}
-        <div className='mt-[9rem] flex-grow' >
+        <div className='mt-[6rem] flex-grow' >
         <div className='bg-darkblue w-[570px] px-[1.75rem] py-[1.2rem] rounded-lg shadow-lg mx-auto'>
                 <p className='text-display text-[18px] font-[400] text-white mb-5'>
                 Hello! My name is Ben. It's nice to meet you!
