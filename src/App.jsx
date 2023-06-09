@@ -16,7 +16,7 @@ function App() {
       <div className= "m-0 w-full overflow-hidden">
         <div className= "w-full xl:w-[1280px] overflow-hidden mx-auto">
           <Navbar />
-          <div className= "mx-10 ">
+          <div className= "mx-10">
             <Hero2 />
             <About />
             <Projects />
