@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <div className= "m-0 w-full overflow-hidden">
+      <div className= "m-0 w-full overflow-hidden bg-white sm:bg-slate-600 md:bg-red-200 lg:bg-blue-200">
         <div className= "w-full xl:w-[1280px] overflow-hidden mx-auto">
           <Navbar />
           <div className= "mx-10">
