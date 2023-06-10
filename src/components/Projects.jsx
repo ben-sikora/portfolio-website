@@ -21,7 +21,7 @@ const Projects = () => {
 
   if (showMore) {
     condProjects = <div className="flex flex-col items-center">
-        <div className="grid grid-cols-2 gap-9 grid-row-2 h-[80%] justify-items-center items-center mt-4"> 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-9 md:grid-row-2 h-[80%] justify-items-center items-center mt-4"> 
           {contentIndProjects.map(function(contentIndProject, i){
             return <IndProject obj={contentIndProject} key={i} />;})}
         </div>
@@ -55,11 +55,10 @@ const Projects = () => {
   return (
     <div className="" id="projects-page">
       <div className="flex flex-col items-center">
-        <h2 className="text-display text-[64px] font-[800] text-darkgreen mb-6">
-          {" "}
+        <h2 className="text-display text-[2.4rem] md:text-[2.9rem] lg:text-[3.5rem] font-[800] text-darkgreen mb-6">
           Projects
         </h2>
-        <h4 className='font-writing text-[24px] font-[500] leading-10 ml-10 text-center mb-5'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
+        <h4 className='font-writing text-[1.3rem] md:text-[1.5rem] font-[500] leading-10 ml-10 text-center mb-5'>"Curiosity is at the center of all that I do. I believe that each new challenge has the potential to expand my understanding of myself and the world around me.”</h4>
 
         {contentBigProjects.map(function(contentBigProject, i){
             return <BigProject link={contentBigProject.link} img={contentBigProject.img} content={contentBigProject.content} key={i} />;})}

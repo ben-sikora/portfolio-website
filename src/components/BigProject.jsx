@@ -20,7 +20,7 @@ const BigProject = (props) => {
         </div>
       </div>
 
-      <p className="self-center bg-lightblue w-[500px] h-[200px] text-gray-100 flex justify-center items-center box-border p-6">
+      <p className="self-center bg-lightblue w-[500px] h-[200px] text-gray-100 flex justify-center text-[0.7rem] sm:text-[0.9rem] md:text-[1rem] items-center box-border p-6">
         {props.content}
       </p>
     </div>
