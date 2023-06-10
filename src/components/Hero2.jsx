@@ -7,7 +7,7 @@ import paintbrushDarkblue from "../assets/paintbrushDarkblueL.svg";
 const Hero2 = () => {
   return (
     <div className="flex flex-row max-h-[710px] mt-2 sm:mt-5 md:mt-10 justify-center" id='hero-page'>
-      <div className="w-[300px] md:w-[400px] lg:w-[560px] mt-4 ml-8 shrink-0">
+      <div className="w-[300px] md:w-[400px] lg:w-[560px] mt-4 sm:ml-8 shrink-0">
         {/*Writing on Top*/}
 
             <div className="grid grid-rows-1 grid-cols-1 box-border">
