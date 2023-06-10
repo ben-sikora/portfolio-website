@@ -19,7 +19,7 @@ const About = () => {
 
         {/* About me section*/}
         <div className="box-border flex flex-col items-center" id='about-page'>
-            <h2 className='text-display text-[64px] font-[800] text-darkgreen mb-6'> About Me</h2>
+            <h2 className='text-display text-[2.4rem] md:text-[2.9rem] lg:text-[3.5rem] font-[800] text-darkgreen mb-6'> About Me</h2>
             <div className='m-[20px]'>
             <img
                     src={portrait}
