@@ -43,7 +43,7 @@ const Experience = () => {
       initial={{ opacity: 0, y:-75, x:-10}}
       whileInView={{ opacity: 1, y:0, x:0}}
       viewport={{ once: true }}
-      transition={{ delay: 0.75, duration: 1}}>
+      transition={{ delay: 0.3, duration: 0.8}}>
       
     <div className="w-[60%] min-w-[300px] mx-auto mt-10" id='experience-page'>
     <h2 className='text-display text-[2.4rem] md:text-[2.9rem] lg:text-[3.5rem] font-[800] text-darkgreen flex justify-center'> Experience</h2>

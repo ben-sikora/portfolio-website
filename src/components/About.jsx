@@ -13,7 +13,7 @@ const About = () => {
     initial={{ opacity: 0, y:-75, x:-10}}
     whileInView={{ opacity: 1, y:0, x:0}}
     viewport={{ once: true }}
-    transition={{ delay: 0.75, duration: 1}}
+    transition={{ delay: 0.3, duration: 0.8}}
     className='flex flex-col md:flex-row justify-center items-center md:justify-between'>
 
 
