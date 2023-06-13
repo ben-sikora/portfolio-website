@@ -3,9 +3,16 @@ import hiking from "../assets/hiking.jpg";
 import portrait from "../assets/portrait.jpeg";
 import paintbrushLightBlue from "../assets/paintbrushLightblueL.svg";
 import paintbrushDarkblue from "../assets/paintbrushDarkblueL.svg";
+import { motion } from "framer-motion"
+
 
 const Hero2 = () => {
   return (
+    <motion.div 
+    initial={{ opacity: 0, y:-75, x:-10}}
+    whileInView={{ opacity: 1, y:0, x:0}}
+    viewport={{ once: true }}
+    transition={{ delay: 0.1, duration: 0.75}}>
     <div className="flex flex-row max-h-[710px] mt-2 sm:mt-5 md:mt-10 justify-center" id='hero-page'>
       <div className="w-[300px] md:w-[400px] lg:w-[560px] mt-4 sm:ml-8 shrink-0">
         {/*Writing on Top*/}
@@ -49,6 +56,7 @@ const Hero2 = () => {
           />  
         </div>
     </div>
+    </motion.div>
   );
 };
 
