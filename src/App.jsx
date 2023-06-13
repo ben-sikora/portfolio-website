@@ -7,6 +7,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import Break from './components/Break'
 
 function App() {
 
@@ -18,9 +19,13 @@ function App() {
           <Navbar />
           <div className= "mx-10">
             <Hero2 />
+            <Break />
             <About />
+            <Break />
             <Projects />
+            <Break />
             <Experience />
+            <Break />
             <Contact />
           </div>
         </div>
