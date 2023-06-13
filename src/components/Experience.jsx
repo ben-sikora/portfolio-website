@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from "framer-motion"
 
 const Experience = () => {
     const buttonOnStyling= "bg-lightblue"
@@ -38,6 +39,12 @@ const Experience = () => {
     }
 
     return (
+      <motion.div 
+      initial={{ opacity: 0, y:-75, x:-10}}
+      whileInView={{ opacity: 1, y:0, x:0}}
+      viewport={{ once: true }}
+      transition={{ delay: 0.75, duration: 1}}>
+      
     <div className="w-[60%] min-w-[300px] mx-auto mt-10" id='experience-page'>
     <h2 className='text-display text-[2.4rem] md:text-[2.9rem] lg:text-[3.5rem] font-[800] text-darkgreen flex justify-center'> Experience</h2>
     <div className="box-border py-4 mt-8 bg-darkblue">
@@ -62,6 +69,7 @@ const Experience = () => {
         >Resume</button>
         </div>
       </div>
+     </motion.div>
     )
   }
   

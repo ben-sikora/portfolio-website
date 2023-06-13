@@ -5,6 +5,8 @@ import FaceRecApp from "../assets/FaceRecApp.png"
 import SummerDev from "../assets/SummerDev.png"
 import { contentIndProjects } from "../content";
 import { contentBigProjects } from "../content";
+import { motion } from "framer-motion"
+
 
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
@@ -53,6 +55,11 @@ const Projects = () => {
 
   /*hover:brightness-50*/
   return (
+    <motion.div 
+    initial={{ opacity: 0, y:-75, x:-10}}
+    whileInView={{ opacity: 1, y:0, x:0}}
+    viewport={{ once: true }}
+    transition={{ delay: 0.75, duration: 1}}>
     <div className="" id="projects-page">
       <div className="flex flex-col items-center">
         <h2 className="text-display text-[2.4rem] md:text-[2.9rem] lg:text-[3.5rem] font-[800] text-darkgreen mb-6">
@@ -70,6 +77,7 @@ const Projects = () => {
         {condProjects}
       </div>
     </div>
+    </motion.div>
   );
 };
 
