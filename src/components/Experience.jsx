@@ -12,7 +12,13 @@ const Experience = () => {
     <h3 className='text-white text-[1.2rem] sm:text-[1.5rem]'> Software Engineer Intern <span className='text-yellow font-writing
      text-[1.2rem] sm:text-[1.5rem]'>@Citibank </span> </h3>
     <h4 className='font-light mb-3 text-[0.9rem] sm:text-[1rem]'>Aug 2022-Sept 2022</h4>
-    <p className='text-[0.9rem] sm:text-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p className='text-[0.9rem] sm:text-[1rem]'>Selected as part of the CUPID Arrow Program for Summmer 2022. Worked with Developer Services, a part of the Global Functions Technology Engineering and Architecture Division.
+    <br/>
+    <br/>
+    •	Built a JSON to YAML converter in Python with functional Tkinter GUI and FastAPI integrations.<br/>
+    •	 Learned Docker and OpenShift to deploy the API onto Citi’s servers. <br/>
+    •	Modernized a CI/CD cloud pipeline by moving and modularizing the 2,000-line Jenkins script into a git repository.  <br/>
+</p>
     </div>
 
     const corpContent=
@@ -20,7 +26,16 @@ const Experience = () => {
     <h3 className='text-white text-[1.2rem] sm:text-[1.5rem]'> Director of Data Analytics <span className='text-yellow font-writing
      text-[1.2rem] sm:text-[1.5rem]'>@The Corp </span> </h3>
     <h4 className='font-light mb-3 text-[0.9rem] sm:text-[1rem]'>Apr 2021-April 2022</h4>
-    <p className='text-[0.9rem] sm:text-[1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p className='text-[0.9rem] sm:text-[1rem]'>The Students of Georgetown Inc, otherwise known as The Corp, is the largest student-run non-profit in the world. With over 300 employees, 6 storefronts, and 3 internal services, The Corp generates around $4 million in yearly revenue. 
+    <br/>
+    <br/>
+    •	Led a team of six analysts to provide specialized weekly and quarterly reports of store trends and products to managers.  
+    <br/>
+    •	Saved an estimated $20K by correcting mismatched prices and purchasing miscommunications through a standardized product and spoilage system for our Coffee and Convenience services.
+    <br/>
+    •	Presided over the research and implementation of a $15k companywide rewards program by analyzing customer habits and preferences. The program had over 1,000 sign-ups in its first week, with overwhelmingly positive customer feedback.  
+    <br/>
+    </p>
     </div>
 
     const [content, setContent]= useState(citiContent)
