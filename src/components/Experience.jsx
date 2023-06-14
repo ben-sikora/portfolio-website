@@ -45,7 +45,7 @@ const Experience = () => {
       viewport={{ once: true }}
       transition={{ delay: 0.3, duration: 0.8}}>
       
-    <div className="w-[60%] min-w-[300px] mx-auto mt-10" id='experience-page'>
+    <div className="w-[60%] min-w-[300px] mx-auto mt-3" id='experience-page'>
     <h2 className='text-display text-[2.4rem] md:text-[2.9rem] lg:text-[3.5rem] font-[800] text-darkgreen flex justify-center'> Experience</h2>
     <div className="box-border py-4 mt-8 bg-darkblue">
       <div className="box-border flex">

@@ -10,7 +10,7 @@ import Contact from './components/Contact'
 import Break from './components/Break'
 
 function App() {
-
+  /* sm:bg-slate-600 md:bg-red-200 lg:bg-blue-200 */
 
   return (
     <div>

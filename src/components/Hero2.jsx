@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 const Hero2 = () => {
   return (
     <motion.div 
-    initial={{ opacity: 0, y:-75, x:-10}}
+    initial={{ opacity: 0, y:-45, x:-5}}
     whileInView={{ opacity: 1, y:0, x:0}}
     viewport={{ once: true }}
     transition={{ delay: 0.1, duration: 0.75}}>
