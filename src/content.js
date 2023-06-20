@@ -18,7 +18,7 @@ export const contentIndProjects = [
     content:
       "A scalable Python CLI Search Engine with its own Pre-Processing, Indexing, and Ranking. Achieved precision scores with 0.5 points of ElasticSearch.",
     img: IRPic,
-    link: "https://github.com/ben-sikora/InformationRetreival",
+    link: "https://github.com/ben-sikora/search-engine",
   },
   {
     id: 2,
