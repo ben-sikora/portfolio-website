@@ -5,7 +5,7 @@ const IndProject = (props) => {
   return (
     <div className="transition-all duration-200 cursor-pointer filter  hover:scale-[102%]">
       <a href={project.link} target="_blank" rel="noopener noreferrer">
-        <div className="flex flex-row w-[400px] sm:w-[500px] md:w-[375px] lg:w-[450px] justify-between ">
+        <div className="flex flex-row w-[350px] sm:w-[500px] md:w-[375px] lg:w-[450px] justify-between ">
           {/*Pictures */}
           <div className="grid w-[270px] grid-cols-8 h-[160px] grid-rows-6 mr-3">
             <div className="bg-darkblue row-start-2 row-end-6 col-end-9 col-start-1 z-0"></div>
@@ -15,7 +15,7 @@ const IndProject = (props) => {
           </div>
           {/*Text */}
           <div className="bg-lightblue h-[150px] w-[300px] flex justify-center items-center object-contain">
-            <p className="text-display text-[0.8rem] md:text-[0.8rem] font-[400] text-white m-4">
+            <p className="text-display text-[0.65rem] sm:text-[0.8rem] font-[400] text-white m-4">
               {project.content}
             </p>
           </div>

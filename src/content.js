@@ -4,6 +4,11 @@ import IRPic from "./assets/IRPic.jpg"
 import heart from "./assets/heartReport.png"
 import FaceRecApp from "./assets/FaceRecApp.png"
 import SummerDev from "./assets/SummerDev.png"
+import ReactLogo from "./assets/react.svg"
+import TailwindLogo from "./assets/tailwind.svg"
+import PostgresLogo from "./assets/postgres.svg"
+import NodeLogo from "./assets/node.svg"
+import Gclogo from "./assets/gclogo.png"
 
 export const contentIndProjects = [
   {
@@ -42,13 +47,15 @@ export const contentBigProjects = [
     content:
     'FaceRec is a full-stack web app that utilizes the Clarifai API to identify faces in any image. Users have the option to also create an account to keep track of how many images are uploaded.',
     img: FaceRecApp,
+    logos: [ReactLogo, TailwindLogo, NodeLogo, PostgresLogo],
     link: "https://face-recognition-app-me9o.onrender.com/",
   },
   {
     id: 1,
     content:
-    'Summer is a full-stack web app that can summarize any length of document or text using ChatGPT. Normally ChatGPT has a prompt limit, but Summer bypasses the limit by automatically breaking up the document for you. As the API costs money for each call, there is only a limited number of requests per user.',
+    'Summer is a full-stack web app that can summarize any length of document using ChatGPT. Normally ChatGPT has a prompt limit, but Summer bypasses the limit by automatically breaking up the document for you.',
     img: SummerDev,
-    link: 'https://www.docsummer.com/',
+    logos: [ReactLogo, TailwindLogo, NodeLogo, Gclogo],
+    link: 'https://vercel.com/ben-sikora/summer-dev/BvQuMnMeVHgJuc2anymdLWhRpwF6',
   },
 ];
