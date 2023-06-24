@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import linkedinLogo from "../assets/linkedin.svg"
-import githubLogo from "../assets/github.svg"
 import Styles from "../style.js"
-import GithubComp from "../assets/GithubComp.jsx"
-import LinkedinComp from "../assets/LinkedinComp.jsx"
+import GithubComp from "./GithubComp.jsx"
+import LinkedinComp from "./LinkedinComp.jsx"
 import menu from "../assets/menu.svg"
 import close from "../assets/close.svg"
 
