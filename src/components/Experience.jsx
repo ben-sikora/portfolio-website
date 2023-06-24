@@ -80,7 +80,9 @@ const Experience = () => {
       <button
           type="button"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-4"
-          href="#"
+          href="https://drive.google.com/file/d/1HZJqnhRO3g3-c6_viS0h674TzAUJq-rc/view?usp=sharing"
+          target="_blank" 
+          rel="noopener noreferrer"
         >Resume</button>
         </div>
       </div>
