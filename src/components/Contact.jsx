@@ -18,8 +18,8 @@ const Contact = () => {
         <p className='text-[1.4rem] md:text-[1.8rem]  font-[800] leading-[50px] lg:leading-[60px] text-darkgreen text-center sm:text-left'>I am always open to connect!</p>
         <p className='text-[1.4rem] md:text-[1.8rem]  font-[800] leading-[50px] lg:leading-[60px] text-darkgreen text-center '>I am currently searching for new oppurtunites.</p>
         <div className='flex flex-col sm:flex-row text-[1.2rem] md:text-[1.5rem]  font-[800] leading-[50px] lg:leading-[60px] text-darkgreen text-center'>
-            <p >bssikora@gmail.com</p>
-            <p className='sm:ml-3'>www.linkedin.com/ben-sikora/</p>
+        <a href="mailto:bssikora@gmail.com" target="_blank" rel="noopener noreferrer"><p className='underline'>bssikora@gmail.com</p></a>
+            <a href="www.linkedin.com/in/ben-sikora/" target="_blank" rel="noopener noreferrer"><p className='sm:ml-3 underline'>www.linkedin.com/in/ben-sikora/</p></a>
         </div>
       </div>
       </motion.div>
