@@ -8,7 +8,6 @@ import close from "../assets/close.svg"
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
-  const buttonAnimation='transform hover:-translate-y-1 hover:text-darkblue hover:scale-105 ease-in-out delay-70 duration-300' 
 
   return (
     <div className="">
@@ -24,7 +23,7 @@ const Navbar = () => {
               <li className={`pr-4 l:pr-7 before:bg-none ${Styles.buttonAnnimation}`}><a href="#about-page">About</a></li> 
               <li className={`px-4 l:px-7 before:bg-none ${Styles.buttonAnnimation}`}><a href="#projects-page">Projects</a></li>
               <li className={`px-4 l:px-7 before:bg-none ${Styles.buttonAnnimation}`}><a href="#experience-page">Experience</a></li>
-              <li className={`px-4 l:pl-7 before:bg-none ${Styles.buttonAnnimation}`}><a href="#">Blog</a></li>
+              <li className={`px-4 l:pl-7 before:bg-none ${Styles.buttonAnnimation}`}><a href="#contact-page">Contact</a></li>
     
           </ul>
           <div className="flex grow-[1] justify-end mr-8 shrink-0 basis-1/5 md:justify-center md:mr-0">
