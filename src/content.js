@@ -56,6 +56,6 @@ export const contentBigProjects = [
     'Summer is a full-stack web app that can summarize any length of document using ChatGPT. Normally ChatGPT has a prompt limit, but Summer bypasses the limit by automatically breaking up the document for you.',
     img: SummerDev,
     logos: [ReactLogo, TailwindLogo, NodeLogo, Gclogo],
-    link: 'https://vercel.com/ben-sikora/summer-dev/BvQuMnMeVHgJuc2anymdLWhRpwF6',
+    link: 'https://summer-dev-nu.vercel.app/',
   },
 ];
