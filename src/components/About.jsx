@@ -49,11 +49,11 @@ const About = () => {
                 I am working towards completing my AWS cloud certification and have deployed my first Full-Stack apps. 
                 <br/>
                 <br />
-                Curious what I have been up to in the past year? Check out my blog! 
+                Curious what I have been up to in the past year? Check out my most recent linkedin post! 
                 </p>
                 <div className=''>
                 <h4 className='text-display text-[14px] lg:text-[18px]  text-white mb-4'>Some technologies I've used recently...</h4> 
-                <ul className="box-border pl-10 grid text-[14px] lg:text-[18px]  text-white  grid-cols-3 gap-x-3">
+                <ul className="box-border sm:pl-10 grid text-[14px] lg:text-[18px]  text-white  grid-cols-2 sm:grid-cols-3 gap-x-3">
                   <li>React</li>
                   <li>AWS</li>
                   <li>Java</li>
