@@ -77,7 +77,7 @@ const Experience = () => {
       </div>
       </div>
       <div className='flex justify-center'>
-      <a href="https://drive.google.com/file/d/1HZJqnhRO3g3-c6_viS0h674TzAUJq-rc/view?usp=sharing"
+      <a href="https://drive.google.com/file/d/1qtazQtQ6nzLnv-jXb1pWb4ooWvNQL8TO/view"
           target="_blank" 
           rel="noopener noreferrer">
       <button
