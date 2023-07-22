@@ -45,17 +45,17 @@ export const contentBigProjects = [
   {
     id: 0,
     content:
-    'FaceRec is a full-stack web app that utilizes the Clarifai API to identify faces in any image. Users have the option to also create an account to keep track of how many images are uploaded.',
-    img: FaceRecApp,
-    logos: [ReactLogo, TailwindLogo, NodeLogo, PostgresLogo],
-    link: "https://face-recognition-app-me9o.onrender.com/",
-  },
-  {
-    id: 1,
-    content:
     'Summer is a full-stack web app that can summarize any length of document using ChatGPT. Normally ChatGPT has a prompt limit, but Summer bypasses the limit by automatically breaking up the document for you.',
     img: SummerDev,
     logos: [ReactLogo, TailwindLogo, NodeLogo, Gclogo],
     link: 'https://summer-dev-nu.vercel.app/',
+  },
+  {
+    id: 1,
+    content:
+    'FaceRec is a full-stack web app that utilizes the Clarifai API to identify faces in any image. Users have the option to also create an account to keep track of how many images are uploaded.',
+    img: FaceRecApp,
+    logos: [ReactLogo, NodeLogo, PostgresLogo],
+    link: "https://face-recognition-app-me9o.onrender.com/",
   },
 ];
