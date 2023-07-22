@@ -55,11 +55,11 @@ const About = () => {
                 <h4 className='text-display text-[14px] lg:text-[18px]  text-white mb-4'>Some technologies I've used recently...</h4> 
                 <ul className="box-border sm:pl-10 grid text-[14px] lg:text-[18px]  text-white  grid-cols-2 sm:grid-cols-3 gap-x-3">
                   <li>React</li>
-                  <li>AWS</li>
-                  <li>Java</li>
-                  <li>Javascript</li>
+                  <li>Postgres</li>
                   <li>Python</li>
-                  <li>C++</li>
+                  <li>Javascript</li>
+                  <li>Java</li>
+                  <li>Tailwind</li>
                 </ul>
                 </div>
             </div>
