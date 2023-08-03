@@ -49,7 +49,7 @@ const About = () => {
                 I am working towards completing my AWS cloud certification and have deployed my first Full-Stack apps. 
                 <br/>
                 <br />
-                Curious what I have been up to in the past year? Check out my most recent linkedin post! 
+                Curious what I have been up to in the past year? Check out my most recent <a href="https://www.linkedin.com/posts/ben-sikora_ben-sikora-activity-7092556690021072896-qKgI?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer"><span className='text-yellow font-bold underline'> linkedin post!</span> </a>
                 </p>
                 <div className=''>
                 <h4 className='text-display text-[14px] lg:text-[18px]  text-white mb-4'>Some technologies I've used recently...</h4> 
