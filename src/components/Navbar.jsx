@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="flex mt-5">
           <div className='flex grow-[1] ml-8 md:hidden'>
             <img src={toggle ? close: menu} 
-            className='w-[35px] transform -scale-x-100'
+            className='w-[35px] transform -scale-x-100 cursor-pointer'
             onClick={()=> setToggle((prev) => !prev)}/>
           </div>
           <a href="#hero-page" className= {`hidden md:flex justify-center items-center font-display text-[1.3rem] grow-[1] basis-1/5 ${Styles.buttonAnnimation}`} > @bensikora </a>
@@ -39,11 +39,11 @@ const Navbar = () => {
       <hr className="border-t-1 border-black mx-10" />
       <div className={`${toggle ? 'flex': 'hidden'} justify-start md:hidden`}>
             <ul className= 
-          "flex flex-col justify-center text-[1.3rem] font-display mt-4">
+          "flex flex-col justify-center text-[1.3rem] font-display mt-4 cursor-pointer">
               <li className={`${Styles.buttonAnnimation}`}><a href="#about-page">About</a></li> 
               <li className={`${Styles.buttonAnnimation}`}><a href="#projects-page">Projects</a></li>
               <li className={`${Styles.buttonAnnimation}`}><a href="#experience-page">Experience</a></li>
-              <li className={`${Styles.buttonAnnimation}`}><a href="#">Blog</a></li>
+              <li className={`${Styles.buttonAnnimation}`}><a href="#contact-page">Contact</a></li>
     
           </ul>
 
